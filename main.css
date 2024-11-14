@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+    background-image: url("images.jpg");
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    height:100px; padding-top: 45px;
+    border-style: groove;
+}
+body{
+    background-color: blue;
+    padding-top: 25px;
+    text-align: center;
+
+}
+label{
+    color:white;
+}
+#levels{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+button{
+    border-radius: 50%;
+    width: 10%;
+    height:30px;
+    border:none;
+    
+
+}
+i{
+    float: right;
+    padding-top: 2px;
+    display: inline;
+    border: none;
+    
+}
+#github{
+    margin-left: 2px;
+    padding-left: 5px;
+}
+
+#button{
+    margin-top: 25px;
+}
+footer{
+    color: white;
+    background-image: url("images.jpg");
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+}

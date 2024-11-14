@@ -1,0 +1,138 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    background-image: url("images.jpg");
+    color: white; 
+    padding-bottom: 25px;
+    
+}
+nav {
+    margin-top: 35px;
+        
+   
+}
+a {
+    color: white;
+    font-size: medium;
+    
+    
+}
+#home{
+    float: left;
+}
+a:hover{
+    color:blue;
+}
+p{
+    color:white;
+}
+i{
+    float: right;
+    padding-top: 2px;
+    display: inline;
+    border: none;
+    
+}
+#github{
+    margin-left: 2px;
+    padding-left: 5px;
+}
+.score{
+    text-align: left;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 8px;
+}
+
+.card-front {
+    background-color: #333;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+/* back of the card- set different colors based on data-framwork */
+.card[data-framework="pink"].card-back{
+    background-color: pink;
+}
+.card[data-framework="purple"].card-back{
+    background-color: purple;
+}
+.card[data-framework="yellow"].card-back{
+    background-color: yellow;
+}
+.card[data-framework="white"].card-back{
+    background-color: white;
+}
+.card[data-framework="brown"].card-back{
+    background-color: brown;
+}
+.card[data-framework="teal"].card-back{
+    background-color: teal;
+}
+.card[data-framework="black"].card-back{
+    background-color: black;
+}
+.card[data-framework="red"].card-back{
+    background-color: green;
+}
+.card[data-framework="orange"].card-back{
+    background-color: orange;
+}
+.card[data-framework="beige"].card-back{
+    background-color: beige;
+}
+
+
+/* Flip the card */
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+footer{ text-align: center;
+    color: white;
+    background-image: url("images.jpg");
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    height: 100px;
+    overflow:scroll;
+}
