@@ -1,4 +1,4 @@
-# memoryCardGam3
+# memoryCardGame
 This is a fun and interactive Memory Card Game where players flip cards to find matching pairs. It's built with HTML, CSS, and JavaScript. The game challenges memory skills by randomizing card positions each round.
 Table of Contents
 
