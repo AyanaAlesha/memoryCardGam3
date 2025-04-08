@@ -26,7 +26,7 @@ Installation
     Clone or download this repository to your local machine.
     Open the index.html file in your preferred browser to start playing.
 
-git clone https://github.com/YourUsername/MemoryCardGame.git
+git clone https://github.com/AyanaAlesha/MemoryCardGame.git
 
 How to Play
 
